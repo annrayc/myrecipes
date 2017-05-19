@@ -1,2 +1,26 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url('cover_eat.jpg');
+  background-size: cover;
+  height: 300px;
+}
+
+.jumbotron h1, h2 {
+  color: #FFF;
+  //text-align: center;
+  margin-bottom: 10px;
+  margin-bottom: 55px;
+  letter-spacing: -1px;
+  font-weight: 700;
+}
+
+.hover-color:hover {
+  color: #FFFFDD;
+}
